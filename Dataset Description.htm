@@ -1,0 +1,1371 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 align=left
+ style='border-collapse:collapse;border:none;margin-left:6.75pt;margin-right:
+ 6.75pt'>
+ <tr>
+  <td width=113 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Variable</span></p>
+  </td>
+  <td width=142 valign=top style='width:106.35pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Description</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Code Description</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Code</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Creditability</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+  <td width=142 valign=top style='width:106.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Creditability</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1 : credit-worthy</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>0 : not credit-worthy</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Account Balance</span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Balance of current
+  account</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no balance or debit</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>0 &lt;= ... &lt; 200
+  DM</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>... &gt;= 200 DM or
+  checking account for at least 1 year</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no running account</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Duration of Credit (month)</span></p>
+  </td>
+  <td width=489 colspan=3 valign=top style='width:366.6pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>duration in months (metric) </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=5 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Payment Status of
+  Previous Credit</span></p>
+  </td>
+  <td width=142 rowspan=5 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Payment of previous
+  credits</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no previous credits /
+  paid back all previous credits</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>paid back previous
+  credits at this bank</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no problems with
+  current credits at this bank</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>hesitant payment of
+  previous credits</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>problematic running
+  account / there are further credits running but at other banks</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=11 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Purpose </span></p>
+  </td>
+  <td width=142 rowspan=11 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Purpose of credit</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>new car</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>used car</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>items of furniture</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>radio / television</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>household appliances</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>5</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>repair</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>6</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>education</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>7</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>vacation</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>8</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>retraining</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>9</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>business</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>10</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>other</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Credit Amount</span></p>
+  </td>
+  <td width=489 colspan=3 valign=top style='width:366.6pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Amount of credit in
+  &quot;Deutsche Mark&quot; (metric) </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=5 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Value Savings/Stocks</span></p>
+  </td>
+  <td width=142 rowspan=5 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Value of savings or
+  stocks</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&lt; 100,- DM</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>100,- &lt;= ... &lt;
+  500,- DM</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>500,- &lt;= ... &lt;
+  1000,- DM</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&gt;= 1000,- DM</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>5</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>not available / no
+  savings</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=5 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Length of current
+  employment</span></p>
+  </td>
+  <td width=142 rowspan=5 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Has been employed by
+  current employer for</span> </span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>unemployed</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&lt;= 1 year</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>1 &lt;= ... &lt; 4
+  years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>4 &lt;= ... &lt; 7
+  years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&gt;= 7 years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>5</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Instalment per cent</span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Instalment in % of available
+  income </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&gt;= 35</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>25 &lt;= ... &lt; 35</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>20 &lt;= ... &lt; 25</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&lt; 20</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Sex &amp; Marital Status </span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Marital Status / Sex – Sex &amp;
+  Marital Status</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>male: divorced /
+  living apart</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>male: single</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>male: married /
+  widowed</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>female:</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=3 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Guarantors</span></span></p>
+  </td>
+  <td width=142 rowspan=3 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Further debtors /
+  Guarantors</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>none</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Co-Applicant</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Guarantor</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Duration in Current
+  address </span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Living in current
+  household for</span> </span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&lt; 1 year</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>1 &lt;= ... &lt; 4
+  years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>4 &lt;= ... &lt; 7
+  years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>&gt;= 7 years</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Most valuable
+  available assets</span></span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Most valuable
+  available assets</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Most valuable
+  available assets</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Savings contract with
+  a building society / Life insurance</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Car / Other</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>not available / no
+  assets</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Age (years)</span></p>
+  </td>
+  <td width=489 colspan=3 valign=top style='width:366.6pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Age in years (metric)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=3 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Concurrent Credits</span></p>
+  </td>
+  <td width=142 rowspan=3 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Further running
+  credits</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>at other banks</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>at department store
+  or mail order house</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no further running
+  credits</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>No of Credits at this
+  Bank</span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Number of previous
+  credits at this bank (including the running one)</span></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>one</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>two or three</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>four or five</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>six or more</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=3 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Type of apartment</span></span></p>
+  </td>
+  <td width=142 rowspan=3 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>Type of apartment</span></span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>rented flat</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>owner-occupied flat</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>free apartment</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=4 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Occupation</span></p>
+  </td>
+  <td width=142 rowspan=4 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Occupation</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>unemployed /
+  unskilled with no permanent residence</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>unskilled with
+  permanent residence</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>skilled worker /
+  skilled employee / minor civil servant</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>executive /
+  self-employed / higher civil servant</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=2 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>No of dependents</span></p>
+  </td>
+  <td width=142 rowspan=2 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>No of dependents</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>0 to 2</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>3 and more</span></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=2 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Telephone</span></p>
+  </td>
+  <td width=142 rowspan=2 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Telephone</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>yes</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=113 rowspan=2 valign=top style='width:84.8pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Foreign worker</span></p>
+  </td>
+  <td width=142 rowspan=2 valign=top style='width:106.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>Foreign worker</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>yes</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>1</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=246 valign=top style='width:184.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif;color:black'>no</span></p>
+  </td>
+  <td width=101 valign=top style='width:75.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-family:"Times New Roman",serif'>2</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>The German
+credit data available at: <a
+href="https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)">https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)</a>
+has been organised as described by the table on the left.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
